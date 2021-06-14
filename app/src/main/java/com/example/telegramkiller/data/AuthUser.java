@@ -10,7 +10,8 @@ import okhttp3.Response;
 
 public class AuthUser implements Callback {
     SignInPresenter signInPresenter;
-    final String LINK_UP = "http://212.75.210.227:8080/user/v1/registration";
+    final String LINK_UP = "" +
+            "";
     final String LINK_IN = "http://212.75.210.227:8080/user/v1/login";
 
     public void signUp(String body, SignInPresenter signInPresenter) {
